@@ -14,6 +14,7 @@ Basics Comands of docker
 - docker ls // show images
 - docker image rm image-name:v1 // remove image from container
 - docker image inspect image-name:v1 // image details
+- docker stats // docker usage
 
 ## Notes
 - We can't delete the container directly it needs to be stopped first or remove forcefully
