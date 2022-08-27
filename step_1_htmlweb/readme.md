@@ -6,8 +6,9 @@ Basics Comands of docker
 - docker container run -d --name container-1 -p 8080:80 image-name // run container
 - docker ps // container progress
 - docker ps -a // Container progress all
-- docker exec -ti container-1 /bin/bash
+- docker exec -ti container-1 bash // used to go inside of container
 - docker container stop container-1 // Kill Container
+- docker start container-id // docker container resume
 - docker container rm container-1 // remove container
 - docker container rm container-1 -f // remove and stop container
 - docker images // show images
